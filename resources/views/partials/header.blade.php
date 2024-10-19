@@ -1,4 +1,4 @@
-@php
+{{-- @php
     $links = [
         [
             'url' => '/',
@@ -16,10 +16,13 @@
             'active' => false,
         ],
     ];
-@endphp
+@endphp --}}
 
 <header>
-    <nav>
+    <h1>
+        header
+    </h1>
+    {{-- <nav>
         <ul>
             @foreach ($links as $link)
                 <li>
@@ -35,5 +38,5 @@
                 </li>
             @endforeach
         </ul>
-    </nav>
+    </nav> --}}
 </header>
