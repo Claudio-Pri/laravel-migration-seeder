@@ -9,8 +9,8 @@ use App\Models\Train;
 class MainController extends Controller
 {
     public function index() {
-        //$trains = Train::all();
+        $trains = Train::all();
 
-        return view('welcome');
+        return view('welcome', compact('trains'));
     }
 }
